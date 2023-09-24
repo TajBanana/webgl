@@ -1,11 +1,12 @@
 import './App.css'
+import { Webgl } from './components/Webgl.tsx'
+import { Canvas } from './components/Canvas.tsx'
 
 const App = () => {
-  alert('everything is ok')
   return (
       <>
-        <div> WebGL</div>
-        <canvas></canvas>
+        <Canvas/>
+        <Webgl/>
       </>
   )
 }
